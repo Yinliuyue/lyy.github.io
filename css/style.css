@@ -5,25 +5,25 @@ body{
    
 }
 
-/*鎬讳綋椤甸潰*/
+/*骼ｬ隶ｳ邯区､､逕ｸ貎ｰ*/
 .navbar{
     position: fixed;
     display: flex;
-    justify-content: center;/*宸﹀彸闂磋窛,闈犲乏杩樻槸闈犲彄1�7,flex-start锛堥粯璁ゅ€硷級锛氬乏��归綄1�7
-    flex-end锛氬彸��归綄1�7
-    center锛� 灞呬腄1�7
-    space-between锛氫袱绔榻愶紝椤圭洰涔嬮棿鐨勯棿闅旈兘鐩哥瓑銆�
-    space-around锛氭瘡涓��鐩袱渚х殑闂撮殧鐩哥瓑銆傛墍浠ワ紝椤圭洰涔嬮棿鐨勯棿闅既�瘮椤圭洰涓庤竟妗嗙殑闂撮殧澶т竴鍊嶃€ￄ1�7*/
-    align-items: center;/*鍦ㄥ潡涓殑浣嶇疆锛宖lex-start锛氫氦鍙夎酱鐨勮捣鐐瑰榻愩€�
-    flex-end锛氫氦鍙夎酱鐨勭粓鐐瑰榻愩€�
-    center锛氫氦鍙夎酱鐨勪腑鐐瑰榻愩€�
-    baseline: 椤圭洰鐨勭涓€琛屾枃��楃殑鍩虹嚎瀵归綈銆ￄ1�7
-    stretch锛堥粯璁ゅ€硷級锛氬鏋滈��鐩湭璁剧疆楂樺害鎴栬涓篴uto锛屽皢鍗犳弧鏁翠釜��瑰櫒鐨勯珮搴︺€�*/
-    flex-direction: row;/*妯潃鎺掕繕鏄珫鐫€鎺ￄ1�7*/
+    justify-content: center;/*螳ｸ�蠖ｸ髣ら｣狗ｪ,髣育幹荵乗擠讓ｻ讒ｸ髣育幹蠖1､7,flex-start髞帛･邊ｯ迺√ｅ竄ｬ遑ｷ邏夐縛豌ｬ荵冗｢羞蠖堤ｶ1､7
+    flex-end髞帶ｰｬ蠖ｸ遒羞蠖堤ｶ1､7
+    center髞幢ｿｽ 轣槫速閻1､7
+    space-between髞帶ｰｫ陲ｱ扈誹�訒ｮ讎ｻ諢ｶ邏晄､､蝨ｭ豢ｰ豸泌ｬｮ譽ｿ髏ｨ蜍ｯ譽ｿ髣�来蜈倬姓蜩･逑鷹恰�ｽ
+    space-around髞帶ｰｭ逖｡豸軟∴罎纃髏ｩ裵ｻ陲ｱ貂墫�ｮ鷹翌謦ｮ谿ｧ髏ｩ蜩･逑鷹恰蛯帛｢肴ｵ繝ｯ邏晄､､蝨ｭ豢ｰ豸泌ｬｮ譽ｿ髏ｨ蜍ｯ譽ｿ髣�里肅舒讀､蝨ｭ豢ｰ豸灘ｺ､遶溷ｦ怜吏谿鷹翌謦ｮ谿ｧ貔ｶﾑらｫｴ骰雁ｶ�ぎ�1､7*/
+    align-items: center;/*骰ｦ繖･貎｡豸軟�谿第ｵ｣蠍�昧髞帛ｮ僕ex-start髞帶ｰｫ豌ｦ骰吝､朱�髏ｨ蜍ｮ謐｣髏千族訒ｮ讎ｻ諢ｩ竄ｬ�ｽ
+    flex-end髞帶ｰｫ豌ｦ骰吝､朱�髏ｨ蜍ｭ邊馴瑞迹ｰ訒ｮ讎ｻ諢ｩ竄ｬ�ｽ
+    center髞帶ｰｫ豌ｦ骰吝､朱�髏ｨ蜍ｪ閻鷹瑞迹ｰ訒ｮ讎ｻ諢ｩ竄ｬ�ｽ
+    baseline: 讀､蝨ｭ豢ｰ髏ｨ蜍ｭ蘒�ｶ凪ぎ逅帛ｱｾ譫�｢纛讌�ｮ鷹昆陌ｹ蝴守ｵ蠖堤ｶ磯恰�1､7
+    stretch髞帛･邊ｯ迺√ｅ竄ｬ遑ｷ邏夐縛豌ｬ都ｧ髀区ｻ医｢纃髏ｩ裵ｽ貉ｭ迺∝鴬逍�･よｨｺ螳ｳ骼ｴ譬ｬ裵墓ｶ鍋ｯｴuto髞帛ｱｽ逧｢骰礼患蠑ｧ髀∫ｿ驥懃｢羯迹ｰ讚帝勢蜍ｯ迴ｮ謳ｴ�ｺ竄ｬ�ｽ*/
+    flex-direction: row;/*螯ｯ﨟�ｽ�室謗慕ｹ暮巡訷懃将髏ｫ竄ｬ骼ｺ�1､7*/
     flex-wrap: wrap;
-    background-color: #ec3b3b;/*濉弧鑳屾櫙鐨勬暣涓鑹�*/
+    background-color: #ec3b3b;/*豼介ぅ蠑ｧ髑ｳ螻ｾ讚咎勢蜍ｬ證｣豸軟∴軏�損�ｽ*/
     border-radius: 30px;
-    width: 100%;/*瀵硅儗鏅潡鐨勮缃ￄ1�7*/
+    width: 100%;/*轢ｵ遑��髀��貎｡髏ｨ蜍ｮ裵慕ｼ�ｿ1､7*/
     height: 70px;
     z-index: 1;
 }
@@ -40,7 +40,7 @@ body{
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-right: 15%;/*璁剧疆鍙冲杈硅窄1�7*/
+    margin-right: 15%;/*迺∝鴬逍�甑蜀ｲ逸ｻ譚育｡�ｪ1､7*/
 }
 
 .nav li{
@@ -52,18 +52,18 @@ body{
 .logo{
     flex: 1 1 auto;
     margin-left: 10%;
-    text-transform: uppercase;/*瀹氫箟浠呮湁澶у啓瀛楁瘄1�7
-    none	榛樿銆傚畾涔夊甫鏈夊皬鍐欏瓧姣嶅拰澶у啓瀛楁瘝鐨勬爣鍑嗙殑鏂囨湰銆�
-capitalize	鏂囨湰涓殑姣忎釜鍗曡瘝浠ュぇ鍐欏瓧姣嶅紑澶淬€ￄ1�7
-uppercase	瀹氫箟浠呮湁澶у啓瀛楁瘝銆ￄ1�7
-lowercase	瀹氫箟鏃犲ぇ鍐欏瓧姣嶏紝浠呮湁灏忓啓瀛楁瘝銆ￄ1�7
-inherit	瑙勫畾搴旇浠庣埗鍏冪礌缁ф壙 text-transform 灞炴€х殑鍊笺€�*/
-    letter-spacing: 1px;/*鏢�瑰彉瀛楅棿璺濈*/
-    font-weight: bold;/*璁剧疆��椾綋绮楃粏*/
+    text-transform: uppercase;/*轢ｹ豌ｫ邂滓ｵ蜻ｮ貉∵ｾｶﾑ�蕪轢帶･∫�1､7
+    none	讎帶ｨｿ蠇ｻ驫�ｚ逡ｾ豸泌､顔鉢髀亥､顔址骰先ｬ冗透蟋｣蠍�恐貔ｶﾑ�蕪轢帶･∫�髏ｨ蜍ｬ辷｣骰大吏谿鷹盾蝗ｨ貉ｰ驫�ｿｽ
+capitalize	髀ょ岑貉ｰ豸軟�谿大ｧ｣蠢朱∪骰玲孱逖晄ｵ繝･縺�告谺冗透蟋｣蠍�ｴ第ｾｶ豺ｬ竄ｬ�1､7
+uppercase	轢ｹ豌ｫ邂滓ｵ蜻ｮ貉∵ｾｶﾑ�蕪轢帶･∫�驫�ｿ1､7
+lowercase	轢ｹ豌ｫ邂滄純迥ｲ縺�告谺冗透蟋｣蠍冗ｴ晄ｵ蜻ｮ貉∫￥蠢灘蕪轢帶･∫�驫�ｿ1､7
+inherit	迹吝境逡ｾ謳ｴ譌�∵豬蠎｣蝓鈴刻蜀ｪ遉檎ｼ��｣ text-transform 轣樒ざ竄ｬﾑ�ｮ鷹濠隨ｺ竄ｬ�ｽ*/
+    letter-spacing: 1px;/*髀｢肅族蠖臥帶･�｣ｿ迺ｺ豼稲梏*/
+    font-weight: bold;/*迺∝鴬逍�｢纛讀ｾ邯狗ｻｮ讌�ｲ*/
     font-size: 35px;
 }
 
-/*鐩存帴��规墍鏈夌殑閾炬帴杩涜澶勭悄1�7*/
+/*髏ｩ蟄伜ｸｴ遒羞隗�｢埼処螟梧ｮ鷹明轤ｬ蟶ｴ譚ｩ豸懣泊貔ｶ蜍ｭ謔1､7*/
 a{
     margin: 15px;
     color: #000;
@@ -71,7 +71,7 @@ a{
     text-transform: uppercase;
 }
 
-/*a锛歨over琛ㄧず褰撻紶鏍囬€夊畾鍦╝鏍囩涓婃椂a鏍囩鐨勬牱寮忓彉鍖栥€ￄ1�7*/
+/*a髞帶ｭｨover逅帙┤縺夊､ｰ謦ｻ邏ｶ髀榊岻竄ｬ螟顔弊骰ｦ笊晞渚蝗ｩ﨡ｷ豸灘ｩ�､Ｂ髀榊岔﨡ｷ髏ｨ蜍ｬ迚ｱ蟇ｮ蠢灘ｽ蛾獄譬･竄ｬ�1､7*/
 a:hover{
     color:#000;
 }
@@ -82,7 +82,7 @@ a:hover{
      /* background: linear-gradient(200deg,#ffffff,#f7dada); */
     /* background-image: url('../images/F22CE978AF642063AA821065FF9612F3.png');
     background-size: 1px 1px; */
-    /*缁欒儗鏅浘鐗囪缃�€忔槑搴ￄ1�7*/
+    /*郛∵ｬ貞�髀��豬倬雛蝗ｪ裵慕ｼ��聹ぎ蠢疲ｧ第清�1､7*/
     /* opacity: 0.5; */
     width: 100%;
     height: 100vh;
@@ -114,7 +114,7 @@ a:hover{
         font-size: 35px;
     }
 
-/*鏍煎紡鍜岃儗鏅繢�椤诲垎寮€鍐ￄ1�7*/
+/*髀咲�邏｡骰懷ｲ��髀��郢｢肆､､隸ｲ蝙主ｯｮ竄ｬ骰撰ｿ1､7*/
 .about-area{
     position: relative;
     display: flex;
@@ -154,7 +154,7 @@ a:hover{
     flex-direction: row;
     width: 100%;
     height: 5000px;
-    /* background-image: url('../images/QQ鍥剧墄1�720221124212116.jpg');
+    /* background-image: url('../images/QQ骰･蜑ｧ蠅1､720221124212116.jpg');
     background-size: 5px 5px; */
 }
 
@@ -162,8 +162,8 @@ a:hover{
     width: 65%;
     height: 80%;
     /* background-color: #ada3d6; */
-    /* opacity: 0.5; *//*鍖呮嫭鏂囧瓧閫忔槑搴︿竴璧�*/
-    background-color: rgba(255, 252, 252, 0.485);/*鍙崟鍗曞彧鏄儗鏅€忔槑搴�*/
+    /* opacity: 0.5; *//*骰門属雖ｭ髀ょ岌逑ｧ髢ｫ蠢疲ｧ第清�ｿ遶ｴ迺ｧ�ｽ*/
+    background-color: rgba(255, 252, 252, 0.485);/*骰咒＞蟠滄漉譖槫ｽｧ髀��蜆鈴遵訷樞ぎ蠢疲ｧ第清�ｽ*/
     font-weight: 600;
     
 }
@@ -214,7 +214,7 @@ p{
     background-size: 1200px 900px;
      /* opacity: 0.5; */
     
-    color:#fff;/*瀵瑰瓧棰滆壊鐨勬敼鍙ￄ1�7*/
+    color:#fff;/*轢ｵ迹ｰ逑ｧ譽ｰ貊�｣企勢蜍ｬ謨ｼ骰呻ｿ1､7*/
 }
 .contact-area{
     background: #ffffff;
@@ -230,7 +230,7 @@ p{
      background-color: rgb(252, 236, 179);
      margin-bottom: 0px;
     
-    color:rgb(255, 255, 255);/*瀵瑰瓧棰滆壊鐨勬敼鍙ￄ1�7*/
+    color:rgb(255, 255, 255);/*轢ｵ迹ｰ逑ｧ譽ｰ貊�｣企勢蜍ｬ謨ｼ骰呻ｿ1､7*/
 }
 
 
@@ -253,7 +253,7 @@ html{
 
 
 
-/*绗竴椤电殑婊戝姄1�7*/
+/*扈齢α遶ｴ讀､逕ｵ谿大ｩ頑�蟋1､7*/
 .biao{
     position: absolute;
     right: 20px;
@@ -268,7 +268,7 @@ ul.slides {
     position: relative;
     width: 900px;
     height: 500px;
-    list-style: none;/*鍙栨秷鍒楄��灞炴€ￄ1�7*/
+    list-style: none;/*骰呎ｨ遘ｷ骰呈･�｢繝轣樒ざ竄ｬ�1､7*/
     margin: 0;
     padding: 0;
     background-color: #eee;
@@ -285,14 +285,14 @@ li.slide{
   position:absolute;
   top: 0;
   left: 0;
-  /*瀵瑰瓄1�7*/
+  /*轢ｵ迹ｰ逑1､7*/
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150px;
   color:#eee;
-  /*鍔ㄧ敾杩囨浮鐨勮���*/
+  /*骰斐┤謨ｾ譚ｩ蝗ｨ豬ｮ髏ｨ蜍ｮ裵慕｢羯�ｽ*/
   transition: .5s transform ease-in-out;
   
 
@@ -369,16 +369,16 @@ li.slide{
 
 
 
-/*璁剧疆radio鎸夐挳锛屼娇鑳��鐪嬭1�7(鏈潵鍦ㄥ乏涓婅锛ￄ1�7*/
+/*迺∝鴬逍�adio骼ｸ螟先元髞帛ｱｼ螽�袖蠅罅鄧ｦ髏ｪ螫ｭ鄧1､7(髀稲п貎ｵ骰ｦ繖･荵乗ｶ灘ｩ�摎髞幢ｿ1､7*/
 input[type="radio"]
 {
     position: relative;
     z-index: 100;
-    /*灏唕adio鎸夐挳鐨刣isplay璁惧畾涓簄one灏嗗畠闅愯棌*/
+    /*轣丞舶adio骼ｸ螟先元髏ｨ蛻｣isplay迺∵Ι逡ｾ豸鍋ｰ�ne轣丞覧逡髣�┗譽*/
     display: none;
 }
 
-/*璁惧畾��瑰櫄1�7*/
+/*迺∵Ι逡ｾ遒羯迹ｰ讚1､7*/
 .controls-visible{
     position: absolute;
     width: 100%;
@@ -388,9 +388,9 @@ input[type="radio"]
 
 }
 
-/*涓嬮潰閭ｆ帓鐨勫嚭鐜ￄ1�7*/
+/*豸灘ｬｮ貎ｰ髢ｭ��ｸ馴勢蜍ｫ蝴ｭ髏懶ｿ1､7*/
 .controls-visible label {
-    display: inline-block;/*鍧楃骇鍏冪礌鍦ㄥ悓涓€琛屾樉鐜�*/
+    display: inline-block;/*骰ｧ讌�ｪ�刻蜀ｪ遉碁恨繖･謔捺ｶ凪ぎ逅帛ｱｾ讓蛾頗�ｽ*/
     width: 10px;
     height: 10px;
     background-color: rgb(255, 0, 0);
@@ -400,7 +400,7 @@ input[type="radio"]
 
 }
 
-/*璁剧疆鐐瑰嚮label鏃讹紝鏄剧ず涓洪€変腑鐨勬牱寮�*/
+/*迺∝鴬逍�瑞迹ｰ蝴ｮlabel髀�ｮｹ邏晞巡蜑ｧ縺壽ｶ捺ｴｪ竄ｬ螟芽�髏ｨ蜍ｬ迚ｱ蟇ｮ�ｽ*/
 .slides input[type="radio"]:nth-of-type(1):checked ~
 .controls-visible label:nth-of-type(1){
     background-color: #333;
@@ -433,8 +433,8 @@ input[type="radio"]
 
 
 
-/*褰撻€変腑浜嗙涓€涓猺adio鎸夐挳鍚庯紝鍚庨潰涓夊紶.slide鐨勬牱寮ￄ1�7
-瀹炵幇婊戝姩锛氬嵆鍙渶瑕佹寜radio鎸夐挳锛屽皢涓変釜slide鍚戝乏绉诲姩鐗瑰畾鐨勮窛绂�*/
+/*隍ｰ謦ｻ竄ｬ螟芽�豬懷吏蘒�ｶ凪ぎ豸鍋玄adio骼ｸ螟先元骰壼ｺｯ邏晞忽蠎ｨ貎ｰ豸灘､顔ｴｶ.slide髏ｨ蜍ｬ迚ｱ蟇ｮ�1､7
+轢ｹ轤ｵ蟷�ｩ頑�蟋ｩ髞帶ｰｬ蠏�甑﨟域ｸｶ迹穂ｽｹ蟇徨adio骼ｸ螟先元髞帛ｱｽ逧｢豸灘､蛾∪slide骰壽�荵冗ｻ芽ｯｲ蟋ｩ髏礼族逡ｾ髏ｨ蜍ｮ遯帷ｻゑｿｽ*/
 .slides input[type="radio"]:nth-of-type(1):checked ~ .slide{
   transform: translateX(0%);
 }
@@ -444,7 +444,7 @@ input[type="radio"]
 }
 
 .slides input[type="radio"]:nth-of-type(3):checked ~ .slide{
-  transform: translateX(-200%);/*鍚戝乏绉诲姩涓€鍊�*/
+  transform: translateX(-200%);/*骰壽�荵冗ｻ芽ｯｲ蟋ｩ豸凪ぎ骰奇ｿｽ*/
 }
 
 .slides input[type="radio"]:nth-of-type(4):checked ~ .slide{
@@ -470,7 +470,7 @@ input[type="radio"]
 
 
 
-/*绗笁椤电殑浜虹墄1�7*/
+/*扈齢α隨∵､､逕ｵ谿第ｵ懆匯蠅1､7*/
 /* .divzishiying{
     width:auto;
     height:auto;
@@ -499,27 +499,27 @@ input[type="radio"]
 }
 
 .carda{
-    /*鐩稿��氫綄1�7*/
+    /*髏ｩ遞ｿ訒ｮ遒羯豌ｫ邯1､7*/
     position: relative;
     width: 300px;/*300*/
     height: 540px;/*450*/
     margin: 20px;/*20*/
     top: 25px;
     /* background-color:#758a99; */
-    /*杩欎袱涓竴璧峰疄鐜颁娇杈圭紭鍦嗗寲鐨勫姛鑳ￄ1�7*/
+    /*譚ｩ谺手｢ｱ豸軟＜遶ｴ迺ｧ蟲ｰ逍�頗鬚∝ｨ�揶蝨ｭ邏ｭ骰ｦ蝸怜ｯｲ髏ｨ蜍ｫ蟋幃袖�1､7*/
     border-radius: 20px;
     overflow: hidden;
-    /*瀵瑰瓧鐨勬敼鍙�*/
+    /*轢ｵ迹ｰ逑ｧ髏ｨ蜍ｬ謨ｼ骰呻ｿｽ*/
     display: flex;
-    /*鍏冪礌绾靛悜鎺掑垄1�7*/
+    /*骰丞�遉檎ｻｾ髱帶�骼ｺ謗大桷1､7*/
     flex-direction: column;
-    /*灞呬腄1�7*/
+    /*轣槫速閻1､7*/
     align-items: center;
     
     /* color:rgb(14, 1, 1); */
-    /*闃村奄1�7*/
+    /*髣�搗螂1､7*/
     box-shadow: 0 0 30px rgba(0,0,0.5);
-    /*涓嶈�鍏惰鎸ゅ帇*/
+    /*豸灘ｶ稲�肓刻諠ｰ鄧ｦ骼ｸ繧�ｸ*/
     flex-shrink: 0;
     
 }
@@ -527,40 +527,40 @@ input[type="radio"]
 .carda .photo img{
     width: 100%;
     height: 100%;
-    /*淇濇寔鍘熸湁灏哄姣斾緥锛岃鍒囬暱杈�*/
+    /*豺�ｿ�ｯ秘腰辭ｸ貉∫￥蜩��蟋｣譁ｾ邱･髞帛ｲ�螺骰貞岻證ｱ譚茨ｿｽ*/
     object-fit: cover;
 }
 
-/*榛樿澶у浄1�7*/
+/*讎帶ｨｿ蠇ｻ貔ｶﾑ�ｵ1､7*/
 .carda .photo{
-    /*鍥剧墖鐨勭粷瀵瑰畾浣ￄ1�7,鎸囧湪div涓殄1�7*/
+    /*骰･蜑ｧ蠅夜勢蜍ｭ邊ｷ轢ｵ迹ｰ逡ｾ豬｣�1､7,骼ｸ蝗ｧ貉ｪdiv豸軟�谿1､7*/
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    border-radius: 0%;/*姝ゆ椂涓烘柟褰�*/
-    /*璁╁浘鍙樺渾娑︿簄1�7*/
+    border-radius: 0%;/*蟋昴ｆ讀よｶ鍋�譟溯､ｰ�ｽ*/
+    /*迺≫普豬倬甑讓ｺ貂ｾ螽托ｸｿ邁1､7*/
     overflow: hidden; 
     /* top: 30px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0.8); */
-    /*鍔ㄧ敾杩囨浮*/
+    /*骰斐┤謨ｾ譚ｩ蝗ｨ豬ｮ*/
     transition: 0.5s;
 }
 
-/*榧犳爣绉诲叆鍙樺皬鍥ￄ1�7*/
-/*hover閫夋嫨榧犳爣鎸囬拡娴姩鍦ㄥ叾涓婄殑鍏冪礌锛屽苟璁剧疆鍏舵牱寮�*/
+/*讎ｧ迥ｳ辷｣扈芽ｯｲ蜿�甑讓ｺ逧ｬ骰･�1､7*/
+/*hover髢ｫ螟句ｫｨ讎ｧ迥ｳ辷｣骼ｸ蝗ｬ諡｡螽ｴ裵ｼ蟋ｩ骰ｦ繖･蜿ｾ豸灘ｩ�ｮ鷹刻蜀ｪ遉碁縛螻ｽ闍溽秩蜑ｧ逍�刻闊ｵ迚ｱ蟇ｮ�ｽ*/
 .carda:hover .photo{
     top: 30px;
     width: 120px;
     height: 120px;
-    border-radius: 50%;/*姝ゆ椂涓哄渾褰�*/
-    box-shadow: 0 0 20px rgba(0,0,0.8);/*搴曢儴鐨勯槾褰�*/
+    border-radius: 50%;/*蟋昴ｆ讀よｶ灘塘貂ｾ隍ｰ�ｽ*/
+    box-shadow: 0 0 20px rgba(0,0,0.8);/*謳ｴ譖｢蜆ｴ髏ｨ蜍ｯ讒ｾ隍ｰ�ｽ*/
 }
 
-/*杩欓噷鍔犱釜榛戣壊鍒伴€忔槑鐨勬笎鍙樿儗鏅紝鍙互鏇村ソ鐨勭湅娓呮鍚嶅瓧*/
+/*譚ｩ谺灘匚骰皮干驥懈ｦ帶哀螢企穀莨ｴ竄ｬ蠢疲ｧ鷹勢蜍ｬ隨朱甑讓ｿ蜆鈴遵訷､邏晞甑訷吩ｺ帝順譚代た髏ｨ蜍ｭ貉�ｨ灘属郞滄忽蠍�透*/
 .carda .photo::before{
     content: "";
     position: absolute;
@@ -569,7 +569,7 @@ input[type="radio"]
     background: linear-gradient(to bottom,transparent 50%,#222);
 }
 
-/*姝ard h1鍜宑ard锛歨over h1瀹炵幇榧犳爣绉讳笂鍘诲悗鏂囧瓧鐨勭Щ鍔ￄ1�7*/
+/*蟋晟�ard h1骰懷ｮ疎rd髞帶ｭｨover h1轢ｹ轤ｵ蟷�ｦｧ迥ｳ辷｣扈芽ｮｳ隨る腰隸ｲ謔鈴盾蝗ｧ逑ｧ髏ｨ蜍ｭﾐｩ骰費ｿ1､7*/
 .carda h1{
     position: absolute;
     top: 370px;
@@ -615,7 +615,7 @@ input[type="radio"]
     text-decoration: none;
     border: 1px solid rgba(172, 59, 59, 0.5);
     padding: 8px 32px;
-    /*杈规鐨勫渾娑﹀害锛岃秺澶ц秺鍦�*/
+    /*譚郁ｧ�萩髏ｨ蜍ｫ貂ｾ螽托ｹ螳ｳ髞帛ｲ�ｧｺ貔ｶﾑ�ｧｺ骰ｦ�ｽ*/
     border-radius: 8px;
 
 }
@@ -641,7 +641,7 @@ input[type="radio"]
     height: 100px; */
 /* } */
 .cardb{
-    /*鐩稿��氫綄1�7*/
+    /*髏ｩ遞ｿ訒ｮ遒羯豌ｫ邯1､7*/
     position: relative;
     width: 300px;/*300*/
     height: 540px;/*450*/
@@ -649,20 +649,20 @@ input[type="radio"]
     top: 90px;
 
     /* background-color:#758a99; */
-    /*杩欎袱涓竴璧峰疄鐜颁娇杈圭紭鍦嗗寲鐨勫姛鑳ￄ1�7*/
+    /*譚ｩ谺手｢ｱ豸軟＜遶ｴ迺ｧ蟲ｰ逍�頗鬚∝ｨ�揶蝨ｭ邏ｭ骰ｦ蝸怜ｯｲ髏ｨ蜍ｫ蟋幃袖�1､7*/
     border-radius: 20px;
     overflow: hidden;
-    /*瀵瑰瓧鐨勬敼鍙�*/
+    /*轢ｵ迹ｰ逑ｧ髏ｨ蜍ｬ謨ｼ骰呻ｿｽ*/
     display: flex;
-    /*鍏冪礌绾靛悜鎺掑垄1�7*/
+    /*骰丞�遉檎ｻｾ髱帶�骼ｺ謗大桷1､7*/
     flex-direction: column;
-    /*灞呬腄1�7*/
+    /*轣槫速閻1､7*/
     align-items: center;
     
     /* color:rgb(15, 1, 1); */
-    /*闃村奄1�7*/
+    /*髣�搗螂1､7*/
     box-shadow: 0 0 30px rgba(0,0,0.5);
-    /*涓嶈�鍏惰鎸ゅ帇*/
+    /*豸灘ｶ稲�肓刻諠ｰ鄧ｦ骼ｸ繧�ｸ*/
     flex-shrink: 0;
     
 }
@@ -683,40 +683,40 @@ input[type="radio"]
 .cardb .photo img{
     width: 100%;
     height: 100%;
-    /*淇濇寔鍘熸湁灏哄姣斾緥锛岃鍒囬暱杈�*/
+    /*豺�ｿ�ｯ秘腰辭ｸ貉∫￥蜩��蟋｣譁ｾ邱･髞帛ｲ�螺骰貞岻證ｱ譚茨ｿｽ*/
     object-fit: cover;
 }
 
-/*榛樿澶у浄1�7*/
+/*讎帶ｨｿ蠇ｻ貔ｶﾑ�ｵ1､7*/
 .cardb .photo{
-    /*鍥剧墖鐨勭粷瀵瑰畾浣ￄ1�7,鎸囧湪div涓殄1�7*/
+    /*骰･蜑ｧ蠅夜勢蜍ｭ邊ｷ轢ｵ迹ｰ逡ｾ豬｣�1､7,骼ｸ蝗ｧ貉ｪdiv豸軟�谿1､7*/
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    border-radius: 0%;/*姝ゆ椂涓烘柟褰�*/
-    /*璁╁浘鍙樺渾娑︿簄1�7*/
+    border-radius: 0%;/*蟋昴ｆ讀よｶ鍋�譟溯､ｰ�ｽ*/
+    /*迺≫普豬倬甑讓ｺ貂ｾ螽托ｸｿ邁1､7*/
     overflow: hidden; 
     /* top: 30px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0.8); */
-    /*鍔ㄧ敾杩囨浮*/
+    /*骰斐┤謨ｾ譚ｩ蝗ｨ豬ｮ*/
     transition: 0.5s;
 }
 
-/*榧犳爣绉诲叆鍙樺皬鍥ￄ1�7*/
-/*hover閫夋嫨榧犳爣鎸囬拡娴姩鍦ㄥ叾涓婄殑鍏冪礌锛屽苟璁剧疆鍏舵牱寮�*/
+/*讎ｧ迥ｳ辷｣扈芽ｯｲ蜿�甑讓ｺ逧ｬ骰･�1､7*/
+/*hover髢ｫ螟句ｫｨ讎ｧ迥ｳ辷｣骼ｸ蝗ｬ諡｡螽ｴ裵ｼ蟋ｩ骰ｦ繖･蜿ｾ豸灘ｩ�ｮ鷹刻蜀ｪ遉碁縛螻ｽ闍溽秩蜑ｧ逍�刻闊ｵ迚ｱ蟇ｮ�ｽ*/
 .cardb:hover .photo{
     top: 30px;
     width: 120px;
     height: 120px;
-    border-radius: 50%;/*姝ゆ椂涓哄渾褰�*/
-    box-shadow: 0 0 20px rgba(0,0,0.8);/*搴曢儴鐨勯槾褰�*/
+    border-radius: 50%;/*蟋昴ｆ讀よｶ灘塘貂ｾ隍ｰ�ｽ*/
+    box-shadow: 0 0 20px rgba(0,0,0.8);/*謳ｴ譖｢蜆ｴ髏ｨ蜍ｯ讒ｾ隍ｰ�ｽ*/
 }
 
-/*杩欓噷鍔犱釜榛戣壊鍒伴€忔槑鐨勬笎鍙樿儗鏅紝鍙互鏇村ソ鐨勭湅娓呮鍚嶅瓧*/
+/*譚ｩ谺灘匚骰皮干驥懈ｦ帶哀螢企穀莨ｴ竄ｬ蠢疲ｧ鷹勢蜍ｬ隨朱甑讓ｿ蜆鈴遵訷､邏晞甑訷吩ｺ帝順譚代た髏ｨ蜍ｭ貉�ｨ灘属郞滄忽蠍�透*/
 .cardb .photo::before{
     content: "";
     position: absolute;
@@ -725,7 +725,7 @@ input[type="radio"]
     background: linear-gradient(to bottom,transparent 50%,#222);
 }
 
-/*姝ard h1鍜宑ard锛歨over h1瀹炵幇榧犳爣绉讳笂鍘诲悗鏂囧瓧鐨勭Щ鍔ￄ1�7*/
+/*蟋晟�ard h1骰懷ｮ疎rd髞帶ｭｨover h1轢ｹ轤ｵ蟷�ｦｧ迥ｳ辷｣扈芽ｮｳ隨る腰隸ｲ謔鈴盾蝗ｧ逑ｧ髏ｨ蜍ｭﾐｩ骰費ｿ1､7*/
 .cardb h1{
     position: absolute;
     top: 370px;
@@ -767,7 +767,7 @@ input[type="radio"]
     text-decoration: none;
     border: 1px solid rgba(136, 31, 31, 0.5);
     padding: 8px 32px;
-    /*杈规鐨勫渾娑﹀害锛岃秺澶ц秺鍦�*/
+    /*譚郁ｧ�萩髏ｨ蜍ｫ貂ｾ螽托ｹ螳ｳ髞帛ｲ�ｧｺ貔ｶﾑ�ｧｺ骰ｦ�ｽ*/
     border-radius: 8px;
 
 }
@@ -778,24 +778,24 @@ input[type="radio"]
 }
 
 .xingshia{
-    /*100%绐楀彛楂樺害*/
+    /*100%扈先･蠖帶･よｨｺ螳ｳ*/
   height: 100vh;
-  /*寮规€у竷灞€ 姘村钄1�7+鍨傜洿灞呬腑*/
+  /*蟇ｮ隗�ぎﾑ�ｫｷ轣樞ぎ 蟋俶搗髓1､7+骰ｨ蛯懈ｴｿ轣槫速閻*/
   display:flex;
   justify-content: center;
   align-items: center;
-  /*娓愬彉鑳屾櫙*/
+  /*螽捺┏蠖蛾袖螻ｾ讚*/
   /* background: linear-gradient(200deg,#517fa4,#243949); */
 }
 
 .xingshib{
-    /*100%绐楀彛楂樺害*/
+    /*100%扈先･蠖帶･よｨｺ螳ｳ*/
   height: 100vh;
-  /*寮规€у竷灞€ 姘村钄1�7+鍨傜洿灞呬腑*/
+  /*蟇ｮ隗�ぎﾑ�ｫｷ轣樞ぎ 蟋俶搗髓1､7+骰ｨ蛯懈ｴｿ轣槫速閻*/
   display:flex;
   justify-content: center;
   align-items: center;
-  /*娓愬彉鑳屾櫙*/
+  /*螽捺┏蠖蛾袖螻ｾ讚*/
   /* background: linear-gradient(200deg,#517fa4,#243949); */
 }
 
@@ -814,7 +814,7 @@ input[type="radio"]
 
 
 
-/*鏁呬簨浠嬬粛*/
+/*髀∝速邁ｨ豬螫ｬ邊*/
 .shell{
     width: 100%;
     height: 100%;
@@ -890,7 +890,7 @@ input:checked+.page .page_content{
 }
 
 .page:nth-child(3){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/imagesIMG_2409(20221125-230650).JPG');
+    background-image: url('../images/imagesIMG_2409(20221125-230650).JPG');
     
     /* background-size: 780px 950px; */
 }
@@ -899,35 +899,35 @@ input:checked+.page .page_content{
 }
 
 .page:nth-child(6){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2411(20221125-230714).JPG');
+    background-image: url('../images/IMG_2411(20221125-230714).JPG');
 }
 .page:nth-child(6) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(9){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2412(20221125-230801).JPG');
+    background-image: url('../images/IMG_2412(20221125-230801).JPG');
 }
 .page:nth-child(9) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(12){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2413(20221125-230815).JPG');
+    background-image: url('../images/IMG_2413(20221125-230815).JPG');
 }
 .page:nth-child(12) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(15){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2415(20221125-231015).JPG');
+    background-image: url('../images/IMG_2415(20221125-231015).JPG');
 }
 .page:nth-child(15) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(18){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2417(20221125-231034).JPG');
+    background-image: url('../images/IMG_2417(20221125-231034).JPG');
     /* background-size: 100px 50px; */
 }
 .page:nth-child(18) .page_content{
@@ -935,14 +935,14 @@ input:checked+.page .page_content{
 }
 
 .page:nth-child(21){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2418(20221125-231054).JPG');
+    background-image: url('../images/IMG_2418(20221125-231054).JPG');
 }
 .page:nth-child(21) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(24){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2420(20221125-231133).JPG');
+    background-image: url('../images/IMG_2420(20221125-231133).JPG');
 }
 .page:nth-child(24) .page_content{
     background-color: rga(185,130,130);
@@ -960,7 +960,7 @@ input:checked+.page .page_content{
     padding: 10px;
     background-color: rgba(231, 210, 210, 0.3);
     border-radius: 10px;
-    margin: 30px 0;/*璁剧疆��楀埌澶栬竟鐨勮窛绂ￄ1�7*/
+    margin: 30px 0;/*迺∝鴬逍�｢纛讌蝓梧ｾｶ譬ｬ遶滄勢蜍ｮ遯帷ｻゑｿ1､7*/
 }
 
 .page span{
@@ -970,7 +970,7 @@ input:checked+.page .page_content{
     color: rgb(238, 236, 236);
 }
 
-/*璁剧疆榧犳爣绉诲埌涓嬮潰鐨勬晥鏋ￄ1�7*/
+/*迺∝鴬逍�ｦｧ迥ｳ辷｣扈芽ｯｲ蝓梧ｶ灘ｬｮ貎ｰ髏ｨ蜍ｬ譎･髀具ｿ1､7*/
 label:hover{
     cursor: pointer;
     border-bottom: solid 4px rgb(35,35,35);
@@ -1295,7 +1295,7 @@ label:hover{
     color:(123, 150, 241);
     font-size:90px;
     margin-left: 400px;
-    font: 500 80px '浼樿鏍囬榛�';
+    font: 500 80px '豬ｼ讓ｿ裵暮渚蝗ｬ﨣ｽ讎幢ｿｽ';
 }
 
 .wenzia p{
