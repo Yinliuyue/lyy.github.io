@@ -5,25 +5,25 @@ body{
    
 }
 
-/*骼ｬ隶ｳ邯区､､逕ｸ貎ｰ*/
+/*éŹčŽłçść¤¤ç¸ć˝°*/
 .navbar{
     position: fixed;
     display: flex;
-    justify-content: center;/*螳ｸ�蠖ｸ髣ら｣狗ｪ,髣育幹荵乗擠讓ｻ讒ｸ髣育幹蠖1､7,flex-start髞帛･邊ｯ迺√ｅ竄ｬ遑ｷ邏夐縛豌ｬ荵冗｢羞蠖堤ｶ1､7
-    flex-end髞帶ｰｬ蠖ｸ遒羞蠖堤ｶ1､7
-    center髞幢ｿｽ 轣槫速閻1､7
-    space-between髞帶ｰｫ陲ｱ扈誹�訒ｮ讎ｻ諢ｶ邏晄､､蝨ｭ豢ｰ豸泌ｬｮ譽ｿ髏ｨ蜍ｯ譽ｿ髣�来蜈倬姓蜩･逑鷹恰�ｽ
-    space-around髞帶ｰｭ逖｡豸軟∴罎纃髏ｩ裵ｻ陲ｱ貂墫�ｮ鷹翌謦ｮ谿ｧ髏ｩ蜩･逑鷹恰蛯帛｢肴ｵ繝ｯ邏晄､､蝨ｭ豢ｰ豸泌ｬｮ譽ｿ髏ｨ蜍ｯ譽ｿ髣�里肅舒讀､蝨ｭ豢ｰ豸灘ｺ､遶溷ｦ怜吏谿鷹翌謦ｮ谿ｧ貔ｶﾑらｫｴ骰雁ｶ�ぎ�1､7*/
-    align-items: center;/*骰ｦ繖･貎｡豸軟�谿第ｵ｣蠍�昧髞帛ｮ僕ex-start髞帶ｰｫ豌ｦ骰吝､朱�髏ｨ蜍ｮ謐｣髏千族訒ｮ讎ｻ諢ｩ竄ｬ�ｽ
-    flex-end髞帶ｰｫ豌ｦ骰吝､朱�髏ｨ蜍ｭ邊馴瑞迹ｰ訒ｮ讎ｻ諢ｩ竄ｬ�ｽ
-    center髞帶ｰｫ豌ｦ骰吝､朱�髏ｨ蜍ｪ閻鷹瑞迹ｰ訒ｮ讎ｻ諢ｩ竄ｬ�ｽ
-    baseline: 讀､蝨ｭ豢ｰ髏ｨ蜍ｭ蘒�ｶ凪ぎ逅帛ｱｾ譫�｢纛讌�ｮ鷹昆陌ｹ蝴守ｵ蠖堤ｶ磯恰�1､7
-    stretch髞帛･邊ｯ迺√ｅ竄ｬ遑ｷ邏夐縛豌ｬ都ｧ髀区ｻ医｢纃髏ｩ裵ｽ貉ｭ迺∝鴬逍�･よｨｺ螳ｳ骼ｴ譬ｬ裵墓ｶ鍋ｯｴuto髞帛ｱｽ逧｢骰礼患蠑ｧ髀∫ｿ驥懃｢羯迹ｰ讚帝勢蜍ｯ迴ｮ謳ｴ�ｺ竄ｬ�ｽ*/
-    flex-direction: row;/*螯ｯ﨟�ｽ�室謗慕ｹ暮巡訷懃将髏ｫ竄ｬ骼ｺ�1､7*/
+    justify-content: center;/*ĺŽ¸ďšĺ˝¸éçŁçŞ,éç˛äšćŠć¨ťć§¸éç˛ĺ˝1¤7,flex-startéĺ Ľç˛ŻçăâŹçĄˇç´éć°Źäšç˘ăľĺ˝çś1¤7
+    flex-endéć°Źĺ˝¸ç˘ăľĺ˝çś1¤7
+    centeréďż˝ çĺŹč1¤7
+    space-betweenéć°Ťč˘ąçťîîŽćŚťćśç´ć¤¤ĺ­ć´°ćśĺŹŽćŁżé¨ĺŻćŁżéćĺéŠĺĽçéďż˝
+    space-aroundéć°­çĄćśîă˘ăéŠîťč˘ąć¸ŃćŽéćŽćŽ§éŠĺĽçéĺĺ˘ćľ ăŻç´ć¤¤ĺ­ć´°ćśĺŹŽćŁżé¨ĺŻćŁżéć˘ăçŽć¤¤ĺ­ć´°ćśĺş¤çŤĺŚĺćŽéćŽćŽ§ćžśŃçŤ´éĺśâŹďż1¤7*/
+    align-items: center;/*éŚăĽć˝Ąćśî ćŽćľŁĺśçéĺŽlex-startéć°Ťć°Śéĺ¤éąé¨ĺŽćŁéç°îŽćŚťćŠâŹďż˝
+    flex-endéć°Ťć°Śéĺ¤éąé¨ĺ­ç˛éç°îŽćŚťćŠâŹďż˝
+    centeréć°Ťć°Śéĺ¤éąé¨ĺŞčéç°îŽćŚťćŠâŹďż˝
+    baseline: ć¤¤ĺ­ć´°é¨ĺ­îćśâŹçĺąžćç˘ăćĽćŽéŠčšĺçľĺ˝çśéďż1¤7
+    stretchéĺ Ľç˛ŻçăâŹçĄˇç´éć°Źî§éćťă˘ăéŠî˝ćš­çĺ§çćĽć¨şĺŽłé´ć ŹîćśçŻ´utoéĺą˝ç˘éçłĺź§éçż éç˘ăšç°ćŤé¨ĺŻçŽć´ď¸şâŹďż˝*/
+    flex-direction: row;/*ĺŚŻîć˝éşćçšéîçŤéŤâŹéşďż1¤7*/
     flex-wrap: wrap;
-    background-color: #ec3b3b;/*豼介ぅ蠑ｧ髑ｳ螻ｾ讚咎勢蜍ｬ證｣豸軟∴軏�損�ｽ*/
+    background-color: #ec3b3b;/*ćżîŁĺź§éłĺąžćŤé¨ĺŹćŁćśîîéšďż˝*/
     border-radius: 30px;
-    width: 100%;/*轢ｵ遑��髀��貎｡髏ｨ蜍ｮ裵慕ｼ�ｿ1､7*/
+    width: 100%;/*çľçĄĺéîć˝Ąé¨ĺŽîçźďż1¤7*/
     height: 70px;
     z-index: 1;
 }
@@ -40,7 +40,7 @@ body{
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-right: 15%;/*迺∝鴬逍�甑蜀ｲ逸ｻ譚育｡�ｪ1､7*/
+    margin-right: 15%;/*çĺ§çéĺ˛îťćçĄçŞ1¤7*/
 }
 
 .nav li{
@@ -52,18 +52,18 @@ body{
 .logo{
     flex: 1 1 auto;
     margin-left: 10%;
-    text-transform: uppercase;/*轢ｹ豌ｫ邂滓ｵ蜻ｮ貉∵ｾｶﾑ�蕪轢帶･∫�1､7
-    none	讎帶ｨｿ蠇ｻ驫�ｚ逡ｾ豸泌､顔鉢髀亥､顔址骰先ｬ冗透蟋｣蠍�恐貔ｶﾑ�蕪轢帶･∫�髏ｨ蜍ｬ辷｣骰大吏谿鷹盾蝗ｨ貉ｰ驫�ｿｽ
-capitalize	髀ょ岑貉ｰ豸軟�谿大ｧ｣蠢朱∪骰玲孱逖晄ｵ繝･縺�告谺冗透蟋｣蠍�ｴ第ｾｶ豺ｬ竄ｬ�1､7
-uppercase	轢ｹ豌ｫ邂滓ｵ蜻ｮ貉∵ｾｶﾑ�蕪轢帶･∫�驫�ｿ1､7
-lowercase	轢ｹ豌ｫ邂滄純迥ｲ縺�告谺冗透蟋｣蠍冗ｴ晄ｵ蜻ｮ貉∫￥蠢灘蕪轢帶･∫�驫�ｿ1､7
-inherit	迹吝境逡ｾ謳ｴ譌�∵豬蠎｣蝓鈴刻蜀ｪ遉檎ｼ��｣ text-transform 轣樒ざ竄ｬﾑ�ｮ鷹濠隨ｺ竄ｬ�ｽ*/
-    letter-spacing: 1px;/*髀｢肅族蠖臥帶･�｣ｿ迺ｺ豼稲梏*/
-    font-weight: bold;/*迺∝鴬逍�｢纛讀ｾ邯狗ｻｮ讌�ｲ*/
+    text-transform: uppercase;/*çšć°ŤçŽćľ ĺŽćšćžśŃĺçćĽç1¤7
+    none	ćŚć¨żîťéĺçžćśĺ¤çŤéĺ¤çŹéćŹç§ĺ§Łĺść°ćžśŃĺçćĽçé¨ĺŹçŁéĺćŽéĺ¨ćš°éďż˝
+capitalize	éĺ¨ćš°ćśî ćŽĺ§ŁĺżééćĄçćľ ăĽăéćŹç§ĺ§Łĺśç´ćžśćˇŹâŹďż1¤7
+uppercase	çšć°ŤçŽćľ ĺŽćšćžśŃĺçćĽçéďż1¤7
+lowercase	çšć°ŤçŽéç˛ăéćŹç§ĺ§Łĺśç´ćľ ĺŽćšçĺżĺçćĽçéďż1¤7
+inherit	çĺŤçžć´ćîćľ ĺşŁĺéĺŞç¤çźŃĺŁ text-transform çç´âŹŃćŽéçŹşâŹďż˝*/
+    letter-spacing: 1px;/*é˘ăç°ĺ˝çćĽćŁżçşćżî*/
+    font-weight: bold;/*çĺ§çç˘ăć¤žçśçťŽćĽç˛*/
     font-size: 35px;
 }
 
-/*髏ｩ蟄伜ｸｴ遒羞隗�｢埼処螟梧ｮ鷹明轤ｬ蟶ｴ譚ｩ豸懣泊貔ｶ蜍ｭ謔1､7*/
+/*éŠĺ­ĺ¸´ç˘ăľč§ĺ˘éĺ¤ćŽéžçŹĺ¸´ćŠćśîćžśĺ­ć1¤7*/
 a{
     margin: 15px;
     color: #000;
@@ -71,7 +71,7 @@ a{
     text-transform: uppercase;
 }
 
-/*a髞帶ｭｨover逅帙┤縺夊､ｰ謦ｻ邏ｶ髀榊岻竄ｬ螟顔弊骰ｦ笊晞渚蝗ｩ﨡ｷ豸灘ｩ�､Ｂ髀榊岔﨡ｷ髏ｨ蜍ｬ迚ｱ蟇ｮ蠢灘ｽ蛾獄譬･竄ｬ�1､7*/
+/*aéć­¨overçă§ăč¤°ćťç´śéĺŹâŹĺ¤çžéŚâéĺŠîˇćśĺŠć¤aéĺŠîˇé¨ĺŹçąĺŻŽĺżĺ˝éć ĽâŹďż1¤7*/
 a:hover{
     color:#000;
 }
@@ -82,7 +82,7 @@ a:hover{
      /* background: linear-gradient(200deg,#ffffff,#f7dada); */
     /* background-image: url('../images/F22CE978AF642063AA821065FF9612F3.png');
     background-size: 1px 1px; */
-    /*郛∵ｬ貞�髀��豬倬雛蝗ｪ裵慕ｼ��聹ぎ蠢疲ｧ第清�1､7*/
+    /*çźćŹĺéîćľéĺŞîçźî˘ăâŹĺżć§ć´ďż1¤7*/
     /* opacity: 0.5; */
     width: 100%;
     height: 100vh;
@@ -114,7 +114,7 @@ a:hover{
         font-size: 35px;
     }
 
-/*髀咲�邏｡骰懷ｲ��髀��郢｢肆､､隸ｲ蝙主ｯｮ竄ｬ骰撰ｿ1､7*/
+/*éçç´Ąéĺ˛ĺéîçš˘ăć¤¤čŻ˛ĺĺŻŽâŹéďż1¤7*/
 .about-area{
     position: relative;
     display: flex;
@@ -124,6 +124,7 @@ a:hover{
     flex-direction: row;
     width: 100%;
     height: 100%;
+    /* height: 100vh; */
 }
 .post-area{
     position: relative;
@@ -133,7 +134,8 @@ a:hover{
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 100%;
+    /* height: 1500px; */
+    height: 1500px;
 }
 .service-area{
     position: relative;
@@ -144,6 +146,8 @@ a:hover{
     flex-direction: row;
     width: 100%;
     height: 1200px;
+   
+   
 }
 .contact-area{
     position: relative;
@@ -154,16 +158,16 @@ a:hover{
     flex-direction: row;
     width: 100%;
     height: 5000px;
-    /* background-image: url('../images/QQ骰･蜑ｧ蠅1､720221124212116.jpg');
+    /* background-image: url('../images/QQéĽĺ§ĺ˘1¤720221124212116.jpg');
     background-size: 5px 5px; */
 }
 
-.text-part{
-    width: 65%;
+.about-area .text-part{
+    width: 70%;
     height: 80%;
     /* background-color: #ada3d6; */
-    /* opacity: 0.5; *//*骰門属雖ｭ髀ょ岌逑ｧ髢ｫ蠢疲ｧ第清�ｿ遶ｴ迺ｧ�ｽ*/
-    background-color: rgba(255, 252, 252, 0.485);/*骰咒＞蟠滄漉譖槫ｽｧ髀��蜆鈴遵訷樞ぎ蠢疲ｧ第清�ｽ*/
+    /* opacity: 0.5; *//*éĺŽĺŤ­éĺ§ç§éŤĺżć§ć´ď¸żçŤ´ç§ďż˝*/
+    background-color: rgba(255, 252, 252, 0.485);/*éîĺ´éćĺ˝§éîĺéîâŹĺżć§ć´ďż˝*/
     font-weight: bolder;
     
 }
@@ -198,6 +202,7 @@ p{
 }
 
 
+
 .about-area{
      background-image: url('../images/20F2BF9A0FA175604ABDCA0CD4D8912D.png');
     background-size: 1600px 1200px;
@@ -211,10 +216,11 @@ p{
 
 .post-area{
     background-image: url('../images/IMG_2394.JPG');
-    background-size: 1200px 900px;
+    background-size: 102% 102%;
+    background-repeat: no-repeat;
      /* opacity: 0.5; */
     
-    color:#fff;/*轢ｵ迹ｰ逑ｧ譽ｰ貊�｣企勢蜍ｬ謨ｼ骰呻ｿ1､7*/
+    color:#fff;/*çľç°ç§ćŁ°ćťĺŁé¨ĺŹćźéďż1¤7*/
 }
 .contact-area{
     background: #ffffff;
@@ -230,7 +236,7 @@ p{
      background-color: rgb(252, 236, 179);
      margin-bottom: 0px;
     
-    color:rgb(255, 255, 255);/*轢ｵ迹ｰ逑ｧ譽ｰ貊�｣企勢蜍ｬ謨ｼ骰呻ｿ1､7*/
+    color:rgb(255, 255, 255);/*çľç°ç§ćŁ°ćťĺŁé¨ĺŹćźéďż1¤7*/
 }
 
 
@@ -253,7 +259,7 @@ html{
 
 
 
-/*扈齢α遶ｴ讀､逕ｵ谿大ｩ頑�蟋1､7*/
+/*çťîżçŤ´ć¤¤çľćŽĺŠćĺ§1¤7*/
 .biao{
     position: absolute;
     right: 20px;
@@ -268,7 +274,7 @@ ul.slides {
     position: relative;
     width: 900px;
     height: 500px;
-    list-style: none;/*骰呎ｨ遘ｷ骰呈･�｢繝轣樒ざ竄ｬ�1､7*/
+    list-style: none;/*éć ¨ç§ˇéćĽă˘ăçç´âŹďż1¤7*/
     margin: 0;
     padding: 0;
     background-color: #eee;
@@ -285,14 +291,14 @@ li.slide{
   position:absolute;
   top: 0;
   left: 0;
-  /*轢ｵ迹ｰ逑1､7*/
+  /*çľç°ç1¤7*/
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150px;
   color:#eee;
-  /*骰斐┤謨ｾ譚ｩ蝗ｨ豬ｮ髏ｨ蜍ｮ裵慕｢羯�ｽ*/
+  /*éă§ćžćŠĺ¨ćľŽé¨ĺŽîç˘ăšďż˝*/
   transition: .5s transform ease-in-out;
   
 
@@ -369,16 +375,16 @@ li.slide{
 
 
 
-/*迺∝鴬逍�adio骼ｸ螟先元髞帛ｱｼ螽�袖蠅罅鄧ｦ髏ｪ螫ｭ鄧1､7(髀稲п貎ｵ骰ｦ繖･荵乗ｶ灘ｩ�摎髞幢ｿ1､7*/
+/*çĺ§çradioé¸ĺ¤ćłéĺąźĺ¨éłĺ˘ăîŚéŞĺŹ­î1¤7(éîć˝ľéŚăĽäšćśĺŠîéďż1¤7*/
 input[type="radio"]
 {
     position: relative;
     z-index: 100;
-    /*轣丞舶adio骼ｸ螟先元髏ｨ蛻｣isplay迺∵Ι逡ｾ豸鍋ｰ�ne轣丞覧逡髣�┗譽*/
+    /*çĺadioé¸ĺ¤ćłé¨ĺŁisplayçć§çžćśç°oneçĺç éćŻćŁ*/
     display: none;
 }
 
-/*迺∵Ι逡ｾ遒羯迹ｰ讚1､7*/
+/*çć§çžç˘ăšç°ćŤ1¤7*/
 .controls-visible{
     position: absolute;
     width: 100%;
@@ -388,9 +394,9 @@ input[type="radio"]
 
 }
 
-/*豸灘ｬｮ貎ｰ髢ｭ��ｸ馴勢蜍ｫ蝴ｭ髏懶ｿ1､7*/
+/*ćśĺŹŽć˝°é­ď˝ĺ¸é¨ĺŤĺ­éďż1¤7*/
 .controls-visible label {
-    display: inline-block;/*骰ｧ讌�ｪ�刻蜀ｪ遉碁恨繖･謔捺ｶ凪ぎ逅帛ｱｾ讓蛾頗�ｽ*/
+    display: inline-block;/*é§ćĽéŞéĺŞç¤éŚăĽććśâŹçĺąžć¨éďż˝*/
     width: 10px;
     height: 10px;
     background-color: rgb(255, 0, 0);
@@ -400,7 +406,7 @@ input[type="radio"]
 
 }
 
-/*迺∝鴬逍�瑞迹ｰ蝴ｮlabel髀�ｮｹ邏晞巡蜑ｧ縺壽ｶ捺ｴｪ竄ｬ螟芽�髏ｨ蜍ｬ迚ｱ蟇ｮ�ｽ*/
+/*çĺ§çéç°ĺŽlabeléčŽšç´éĺ§ăćść´ŞâŹĺ¤čé¨ĺŹçąĺŻŽďż˝*/
 .slides input[type="radio"]:nth-of-type(1):checked ~
 .controls-visible label:nth-of-type(1){
     background-color: #333;
@@ -433,8 +439,8 @@ input[type="radio"]
 
 
 
-/*隍ｰ謦ｻ竄ｬ螟芽�豬懷吏蘒�ｶ凪ぎ豸鍋玄adio骼ｸ螟先元骰壼ｺｯ邏晞忽蠎ｨ貎ｰ豸灘､顔ｴｶ.slide髏ｨ蜍ｬ迚ｱ蟇ｮ�1､7
-轢ｹ轤ｵ蟷�ｩ頑�蟋ｩ髞帶ｰｬ蠏�甑﨟域ｸｶ迹穂ｽｹ蟇徨adio骼ｸ螟先元髞帛ｱｽ逧｢豸灘､蛾∪slide骰壽�荵冗ｻ芽ｯｲ蟋ｩ髏礼族逡ｾ髏ｨ蜍ｮ遯帷ｻゑｿｽ*/
+/*č¤°ćťâŹĺ¤čćľĺîćśâŹćśçşadioé¸ĺ¤ćłéĺşŻç´éĺş¨ć˝°ćśĺ¤ç´ś.slideé¨ĺŹçąĺŻŽďż1¤7
+çšçľĺšĺŠćĺ§Šéć°Źĺľéîć¸śçä˝šĺŻradioé¸ĺ¤ćłéĺą˝ç˘ćśĺ¤éslideéćäšçťčŻ˛ĺ§Šéç°çžé¨ĺŽçŞçťďż˝*/
 .slides input[type="radio"]:nth-of-type(1):checked ~ .slide{
   transform: translateX(0%);
 }
@@ -444,7 +450,7 @@ input[type="radio"]
 }
 
 .slides input[type="radio"]:nth-of-type(3):checked ~ .slide{
-  transform: translateX(-200%);/*骰壽�荵冗ｻ芽ｯｲ蟋ｩ豸凪ぎ骰奇ｿｽ*/
+  transform: translateX(-200%);/*éćäšçťčŻ˛ĺ§ŠćśâŹéďż˝*/
 }
 
 .slides input[type="radio"]:nth-of-type(4):checked ~ .slide{
@@ -470,7 +476,7 @@ input[type="radio"]
 
 
 
-/*扈齢α隨∵､､逕ｵ谿第ｵ懆匯蠅1､7*/
+/*çťîżçŹć¤¤çľćŽćľčšĺ˘1¤7*/
 /* .divzishiying{
     width:auto;
     height:auto;
@@ -499,27 +505,27 @@ input[type="radio"]
 }
 
 .carda{
-    /*髏ｩ遞ｿ訒ｮ遒羯豌ｫ邯1､7*/
+    /*éŠç¨żîŽç˘ăšć°Ťçś1¤7*/
     position: relative;
     width: 300px;/*300*/
     height: 540px;/*450*/
     margin: 20px;/*20*/
     top: 25px;
     /* background-color:#758a99; */
-    /*譚ｩ谺手｢ｱ豸軟＜遶ｴ迺ｧ蟲ｰ逍�頗鬚∝ｨ�揶蝨ｭ邏ｭ骰ｦ蝸怜ｯｲ髏ｨ蜍ｫ蟋幃袖�1､7*/
+    /*ćŠćŹč˘ąćśîçŤ´ç§ĺł°çéé˘ĺ¨ćĺ­ç´­éŚĺĺŻ˛é¨ĺŤĺ§éłďż1¤7*/
     border-radius: 20px;
     overflow: hidden;
-    /*轢ｵ迹ｰ逑ｧ髏ｨ蜍ｬ謨ｼ骰呻ｿｽ*/
+    /*çľç°ç§é¨ĺŹćźéďż˝*/
     display: flex;
-    /*骰丞�遉檎ｻｾ髱帶�骼ｺ謗大桷1､7*/
+    /*éĺŞç¤çťžéćéşćĺ1¤7*/
     flex-direction: column;
-    /*轣槫速閻1､7*/
+    /*çĺŹč1¤7*/
     align-items: center;
     
     /* color:rgb(14, 1, 1); */
-    /*髣�搗螂1､7*/
+    /*éćĺĽ1¤7*/
     box-shadow: 0 0 30px rgba(0,0,0.5);
-    /*豸灘ｶ稲�肓刻諠ｰ鄧ｦ骼ｸ繧�ｸ*/
+    /*ćśĺśî˘ăéć°îŚé¸ăĺ¸*/
     flex-shrink: 0;
     
 }
@@ -527,40 +533,40 @@ input[type="radio"]
 .carda .photo img{
     width: 100%;
     height: 100%;
-    /*豺�ｿ�ｯ秘腰辭ｸ貉∫￥蜩��蟋｣譁ｾ邱･髞帛ｲ�螺骰貞岻證ｱ譚茨ｿｽ*/
+    /*ćˇćżĺŻéç¸ćšçĺî­ĺ§ŁćžçˇĽéĺ˛îéĺŹćąćďż˝*/
     object-fit: cover;
 }
 
-/*讎帶ｨｿ蠇ｻ貔ｶﾑ�ｵ1､7*/
+/*ćŚć¨żîťćžśŃćľ1¤7*/
 .carda .photo{
-    /*骰･蜑ｧ蠅夜勢蜍ｭ邊ｷ轢ｵ迹ｰ逡ｾ豬｣�1､7,骼ｸ蝗ｧ貉ｪdiv豸軟�谿1､7*/
+    /*éĽĺ§ĺ˘é¨ĺ­ç˛ˇçľç°çžćľŁďż1¤7,é¸ĺ§ćšŞdivćśî ćŽ1¤7*/
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    border-radius: 0%;/*蟋昴ｆ讀よｶ鍋�譟溯､ｰ�ｽ*/
-    /*迺≫普豬倬甑讓ｺ貂ｾ螽托ｸｿ邁1､7*/
+    border-radius: 0%;/*ĺ§ăć¤ćśçćč¤°ďż˝*/
+    /*çâćľéć¨şć¸žĺ¨ď¸żç°1¤7*/
     overflow: hidden; 
     /* top: 30px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0.8); */
-    /*骰斐┤謨ｾ譚ｩ蝗ｨ豬ｮ*/
+    /*éă§ćžćŠĺ¨ćľŽ*/
     transition: 0.5s;
 }
 
-/*讎ｧ迥ｳ辷｣扈芽ｯｲ蜿�甑讓ｺ逧ｬ骰･�1､7*/
-/*hover髢ｫ螟句ｫｨ讎ｧ迥ｳ辷｣骼ｸ蝗ｬ諡｡螽ｴ裵ｼ蟋ｩ骰ｦ繖･蜿ｾ豸灘ｩ�ｮ鷹刻蜀ｪ遉碁縛螻ｽ闍溽秩蜑ｧ逍�刻闊ｵ迚ｱ蟇ｮ�ｽ*/
+/*ćŚ§çłçŁçťčŻ˛ĺéć¨şçŹéĽďż1¤7*/
+/*hoveréŤĺ¤ĺŤ¨ćŚ§çłçŁé¸ĺŹćĄĺ¨´îźĺ§ŠéŚăĽĺžćśĺŠćŽéĺŞç¤éĺą˝čçĺ§çéčľçąĺŻŽďż˝*/
 .carda:hover .photo{
     top: 30px;
     width: 120px;
     height: 120px;
-    border-radius: 50%;/*蟋昴ｆ讀よｶ灘塘貂ｾ隍ｰ�ｽ*/
-    box-shadow: 0 0 20px rgba(0,0,0.8);/*謳ｴ譖｢蜆ｴ髏ｨ蜍ｯ讒ｾ隍ｰ�ｽ*/
+    border-radius: 50%;/*ĺ§ăć¤ćśĺć¸žč¤°ďż˝*/
+    box-shadow: 0 0 20px rgba(0,0,0.8);/*ć´ć˘ĺ´é¨ĺŻć§žč¤°ďż˝*/
 }
 
-/*譚ｩ谺灘匚骰皮干驥懈ｦ帶哀螢企穀莨ｴ竄ｬ蠢疲ｧ鷹勢蜍ｬ隨朱甑讓ｿ蜆鈴遵訷､邏晞甑訷吩ｺ帝順譚代た髏ｨ蜍ｭ貉�ｨ灘属郞滄忽蠍�透*/
+/*ćŠćŹĺˇéçąéćŚćŁĺŁéäź´âŹĺżć§é¨ĺŹçŹéć¨żĺéî¤ç´éîäşéćă˝é¨ĺ­ćšĺ¨ĺŽîéĺśç§*/
 .carda .photo::before{
     content: "";
     position: absolute;
@@ -569,7 +575,7 @@ input[type="radio"]
     background: linear-gradient(to bottom,transparent 50%,#222);
 }
 
-/*蟋晟�ard h1骰懷ｮ疎rd髞帶ｭｨover h1轢ｹ轤ｵ蟷�ｦｧ迥ｳ辷｣扈芽ｮｳ隨る腰隸ｲ謔鈴盾蝗ｧ逑ｧ髏ｨ蜍ｭﾐｩ骰費ｿ1､7*/
+/*ĺ§îard h1éĺŽardéć­¨over h1çšçľĺšćŚ§çłçŁçťčŽłçŹéčŻ˛ćéĺ§ç§é¨ĺ­ĐŠéďż1¤7*/
 .carda h1{
     position: absolute;
     top: 370px;
@@ -583,7 +589,7 @@ input[type="radio"]
 }
 
 .carda:hover h1{
-    top:170px;
+    top:150px;
 }
 
 .carda:hover h1{
@@ -615,7 +621,7 @@ input[type="radio"]
     text-decoration: none;
     border: 1px solid rgba(172, 59, 59, 0.5);
     padding: 8px 32px;
-    /*譚郁ｧ�萩髏ｨ蜍ｫ貂ｾ螽托ｹ螳ｳ髞帛ｲ�ｧｺ貔ｶﾑ�ｧｺ骰ｦ�ｽ*/
+    /*ćč§îé¨ĺŤć¸žĺ¨ďšĺŽłéĺ˛ç§şćžśŃç§şéŚďż˝*/
     border-radius: 8px;
 
 }
@@ -641,28 +647,29 @@ input[type="radio"]
     height: 100px; */
 /* } */
 .cardb{
-    /*髏ｩ遞ｿ訒ｮ遒羯豌ｫ邯1､7*/
+    /*éŠç¨żîŽç˘ăšć°Ťçś1¤7*/
     position: relative;
-    width: 300px;/*300*/
-    height: 555px;/*450*/
+    width: 20%;/*300*/
+    height: 80%;/*450*/
     margin: 20px;/*20*/
     top: 90px;
+    bottom: 0%;
 
     /* background-color:#758a99; */
-    /*譚ｩ谺手｢ｱ豸軟＜遶ｴ迺ｧ蟲ｰ逍�頗鬚∝ｨ�揶蝨ｭ邏ｭ骰ｦ蝸怜ｯｲ髏ｨ蜍ｫ蟋幃袖�1､7*/
+    /*ćŠćŹč˘ąćśîçŤ´ç§ĺł°çéé˘ĺ¨ćĺ­ç´­éŚĺĺŻ˛é¨ĺŤĺ§éłďż1¤7*/
     border-radius: 20px;
     overflow: hidden;
-    /*轢ｵ迹ｰ逑ｧ髏ｨ蜍ｬ謨ｼ骰呻ｿｽ*/
+    /*çľç°ç§é¨ĺŹćźéďż˝*/
     display: flex;
-    /*骰丞�遉檎ｻｾ髱帶�骼ｺ謗大桷1､7*/
+    /*éĺŞç¤çťžéćéşćĺ1¤7*/
     flex-direction: column;
-    /*轣槫速閻1､7*/
+    /*çĺŹč1¤7*/
     align-items: center;
     
     /* color:rgb(15, 1, 1); */
-    /*髣�搗螂1､7*/
+    /*éćĺĽ1¤7*/
     box-shadow: 0 0 30px rgba(0,0,0.5);
-    /*豸灘ｶ稲�肓刻諠ｰ鄧ｦ骼ｸ繧�ｸ*/
+    /*ćśĺśî˘ăéć°îŚé¸ăĺ¸*/
     flex-shrink: 0;
     
 }
@@ -683,40 +690,40 @@ input[type="radio"]
 .cardb .photo img{
     width: 100%;
     height: 100%;
-    /*豺�ｿ�ｯ秘腰辭ｸ貉∫￥蜩��蟋｣譁ｾ邱･髞帛ｲ�螺骰貞岻證ｱ譚茨ｿｽ*/
+    /*ćˇćżĺŻéç¸ćšçĺî­ĺ§ŁćžçˇĽéĺ˛îéĺŹćąćďż˝*/
     object-fit: cover;
 }
 
-/*讎帶ｨｿ蠇ｻ貔ｶﾑ�ｵ1､7*/
+/*ćŚć¨żîťćžśŃćľ1¤7*/
 .cardb .photo{
-    /*骰･蜑ｧ蠅夜勢蜍ｭ邊ｷ轢ｵ迹ｰ逡ｾ豬｣�1､7,骼ｸ蝗ｧ貉ｪdiv豸軟�谿1､7*/
+    /*éĽĺ§ĺ˘é¨ĺ­ç˛ˇçľç°çžćľŁďż1¤7,é¸ĺ§ćšŞdivćśî ćŽ1¤7*/
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    border-radius: 0%;/*蟋昴ｆ讀よｶ鍋�譟溯､ｰ�ｽ*/
-    /*迺≫普豬倬甑讓ｺ貂ｾ螽托ｸｿ邁1､7*/
+    border-radius: 0%;/*ĺ§ăć¤ćśçćč¤°ďż˝*/
+    /*çâćľéć¨şć¸žĺ¨ď¸żç°1¤7*/
     overflow: hidden; 
     /* top: 30px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0.8); */
-    /*骰斐┤謨ｾ譚ｩ蝗ｨ豬ｮ*/
+    /*éă§ćžćŠĺ¨ćľŽ*/
     transition: 0.5s;
 }
 
-/*讎ｧ迥ｳ辷｣扈芽ｯｲ蜿�甑讓ｺ逧ｬ骰･�1､7*/
-/*hover髢ｫ螟句ｫｨ讎ｧ迥ｳ辷｣骼ｸ蝗ｬ諡｡螽ｴ裵ｼ蟋ｩ骰ｦ繖･蜿ｾ豸灘ｩ�ｮ鷹刻蜀ｪ遉碁縛螻ｽ闍溽秩蜑ｧ逍�刻闊ｵ迚ｱ蟇ｮ�ｽ*/
+/*ćŚ§çłçŁçťčŻ˛ĺéć¨şçŹéĽďż1¤7*/
+/*hoveréŤĺ¤ĺŤ¨ćŚ§çłçŁé¸ĺŹćĄĺ¨´îźĺ§ŠéŚăĽĺžćśĺŠćŽéĺŞç¤éĺą˝čçĺ§çéčľçąĺŻŽďż˝*/
 .cardb:hover .photo{
     top: 30px;
     width: 120px;
     height: 120px;
-    border-radius: 50%;/*蟋昴ｆ讀よｶ灘塘貂ｾ隍ｰ�ｽ*/
-    box-shadow: 0 0 20px rgba(0,0,0.8);/*謳ｴ譖｢蜆ｴ髏ｨ蜍ｯ讒ｾ隍ｰ�ｽ*/
+    border-radius: 50%;/*ĺ§ăć¤ćśĺć¸žč¤°ďż˝*/
+    box-shadow: 0 0 20px rgba(0,0,0.8);/*ć´ć˘ĺ´é¨ĺŻć§žč¤°ďż˝*/
 }
 
-/*譚ｩ谺灘匚骰皮干驥懈ｦ帶哀螢企穀莨ｴ竄ｬ蠢疲ｧ鷹勢蜍ｬ隨朱甑讓ｿ蜆鈴遵訷､邏晞甑訷吩ｺ帝順譚代た髏ｨ蜍ｭ貉�ｨ灘属郞滄忽蠍�透*/
+/*ćŠćŹĺˇéçąéćŚćŁĺŁéäź´âŹĺżć§é¨ĺŹçŹéć¨żĺéî¤ç´éîäşéćă˝é¨ĺ­ćšĺ¨ĺŽîéĺśç§*/
 .cardb .photo::before{
     content: "";
     position: absolute;
@@ -725,7 +732,7 @@ input[type="radio"]
     background: linear-gradient(to bottom,transparent 50%,#222);
 }
 
-/*蟋晟�ard h1骰懷ｮ疎rd髞帶ｭｨover h1轢ｹ轤ｵ蟷�ｦｧ迥ｳ辷｣扈芽ｮｳ隨る腰隸ｲ謔鈴盾蝗ｧ逑ｧ髏ｨ蜍ｭﾐｩ骰費ｿ1､7*/
+/*ĺ§îard h1éĺŽardéć­¨over h1çšçľĺšćŚ§çłçŁçťčŽłçŹéčŻ˛ćéĺ§ç§é¨ĺ­ĐŠéďż1¤7*/
 .cardb h1{
     position: absolute;
     top: 370px;
@@ -735,7 +742,7 @@ input[type="radio"]
 }
 
 .cardb:hover h1{
-    top:170px;
+    top: 145px;
 }
 
 .cardb:hover h1{
@@ -767,7 +774,7 @@ input[type="radio"]
     text-decoration: none;
     border: 1px solid rgba(136, 31, 31, 0.5);
     padding: 8px 32px;
-    /*譚郁ｧ�萩髏ｨ蜍ｫ貂ｾ螽托ｹ螳ｳ髞帛ｲ�ｧｺ貔ｶﾑ�ｧｺ骰ｦ�ｽ*/
+    /*ćč§îé¨ĺŤć¸žĺ¨ďšĺŽłéĺ˛ç§şćžśŃç§şéŚďż˝*/
     border-radius: 8px;
 
 }
@@ -778,25 +785,43 @@ input[type="radio"]
 }
 
 .xingshia{
-    /*100%扈先･蠖帶･よｨｺ螳ｳ*/
-  height: 100vh;
-  /*蟇ｮ隗�ぎﾑ�ｫｷ轣樞ぎ 蟋俶搗髓1､7+骰ｨ蛯懈ｴｿ轣槫速閻*/
+    /*100%çťćĽĺ˝ćĽć¨şĺŽł*/
+   
+  height: 25%;
+  /*ĺŻŽč§âŹŃçŤˇçâ200Ź ĺ§ćé1¤7+é¨ĺć´żçĺŹč*/
   display:flex;
   justify-content: center;
   align-items: center;
-  /*螽捺┏蠖蛾袖螻ｾ讚*/
+  /*ĺ¨ćŹĺ˝éłĺąžćŤ*/
   /* background: linear-gradient(200deg,#517fa4,#243949); */
 }
 
 .xingshib{
-    /*100%扈先･蠖帶･よｨｺ螳ｳ*/
-  height: 100vh;
-  /*蟇ｮ隗�ぎﾑ�ｫｷ轣樞ぎ 蟋俶搗髓1､7+骰ｨ蛯懈ｴｿ轣槫速閻*/
+    /*100%çťćĽĺ˝ćĽć¨şĺŽł*/
+  
+  height: 46%;
+  /*ĺŻŽč§âŹŃçŤˇçâŹ ĺ§ćé1¤7+é¨ĺć´żçĺŹč*/
   display:flex;
   justify-content: center;
   align-items: center;
-  /*螽捺┏蠖蛾袖螻ｾ讚*/
+  /*ĺ¨ćŹĺ˝éłĺąžćŤ*/
   /* background: linear-gradient(200deg,#517fa4,#243949); */
+}
+
+/* .xingshia{
+    position: absolute;
+    top: 10%;
+} */
+.xingshia{
+ position: relative;
+ /* top: 40px; */
+ top: 140px;
+}
+
+.xingshib{
+    position: relative;
+    /* bottom: 0%; */
+    bottom: 0px;
 }
 
 
@@ -811,10 +836,7 @@ input[type="radio"]
 
 
 
-
-
-
-/*髀∝速邁ｨ豬螫ｬ邊*/
+/*éĺŹç°¨ćľ ĺŹŹç˛*/
 .shell{
     width: 100%;
     height: 100%;
@@ -899,35 +921,35 @@ input:checked+.page .page_content{
 }
 
 .page:nth-child(6){
-    background-image: url('../images/IMG_2411(20221125-230714).JPG');
+    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2411(20221125-230714).JPG');
 }
 .page:nth-child(6) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(9){
-    background-image: url('../images/IMG_2412(20221125-230801).JPG');
+    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2412(20221125-230801).JPG');
 }
 .page:nth-child(9) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(12){
-    background-image: url('../images/IMG_2413(20221125-230815).JPG');
+    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2413(20221125-230815).JPG');
 }
 .page:nth-child(12) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(15){
-    background-image: url('../images/IMG_2415(20221125-231015).JPG');
+    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2415(20221125-231015).JPG');
 }
 .page:nth-child(15) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(18){
-    background-image: url('../images/IMG_2417(20221125-231034).JPG');
+    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2417(20221125-231034).JPG');
     /* background-size: 100px 50px; */
 }
 .page:nth-child(18) .page_content{
@@ -935,14 +957,14 @@ input:checked+.page .page_content{
 }
 
 .page:nth-child(21){
-    background-image: url('../images/IMG_2418(20221125-231054).JPG');
+    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2418(20221125-231054).JPG');
 }
 .page:nth-child(21) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(24){
-    background-image: url('../images/IMG_2420(20221125-231133).JPG');
+    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2420(20221125-231133).JPG');
 }
 .page:nth-child(24) .page_content{
     background-color: rga(185,130,130);
@@ -960,7 +982,7 @@ input:checked+.page .page_content{
     padding: 10px;
     background-color: rgba(231, 210, 210, 0.3);
     border-radius: 10px;
-    margin: 30px 0;/*迺∝鴬逍�｢纛讌蝓梧ｾｶ譬ｬ遶滄勢蜍ｮ遯帷ｻゑｿ1､7*/
+    margin: 30px 0;/*çĺ§çç˘ăćĽĺćžść ŹçŤé¨ĺŽçŞçťďż1¤7*/
 }
 
 .page span{
@@ -970,7 +992,7 @@ input:checked+.page .page_content{
     color: rgb(238, 236, 236);
 }
 
-/*迺∝鴬逍�ｦｧ迥ｳ辷｣扈芽ｯｲ蝓梧ｶ灘ｬｮ貎ｰ髏ｨ蜍ｬ譎･髀具ｿ1､7*/
+/*çĺ§çćŚ§çłçŁçťčŻ˛ĺćśĺŹŽć˝°é¨ĺŹćĽéďż1¤7*/
 label:hover{
     cursor: pointer;
     border-bottom: solid 4px rgb(35,35,35);
@@ -1295,7 +1317,7 @@ label:hover{
     color:(123, 150, 241);
     font-size:90px;
     margin-left: 400px;
-    font: 500 80px '豬ｼ讓ｿ裵暮渚蝗ｬ﨣ｽ讎幢ｿｽ';
+    font: 500 80px 'ćľźć¨żîéĺŹî˝ćŚďż˝';
 }
 
 .wenzia p{
@@ -1523,4 +1545,3 @@ h2,h3{
     color: rgb(0, 0, 0);
     font-weight: bolder;
 }
-
