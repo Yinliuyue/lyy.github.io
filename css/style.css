@@ -215,9 +215,12 @@ p{
 }
 
 .post-area{
-    background-image: url('../images/IMG_2394.JPG');
-    background-size: 102% 102%;
+    background-image: url('../images/QQ图片20221124212150.jpg');
+    background-size: 25% 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(186, 222, 245);
      /* opacity: 0.5; */
     
     color:#fff;/*çľç°ç§ćŁ°ćťĺŁé¨ĺŹćźéďż1¤7*/
@@ -507,10 +510,13 @@ input[type="radio"]
 .carda{
     /*éŠç¨żîŽç˘ăšć°Ťçś1¤7*/
     position: relative;
-    width: 300px;/*300*/
-    height: 540px;/*450*/
+    /* width: 300px;
+    height: 540px;
+    margin: 20px; */
+    width: 20%;/*300*/
+    height: 80%;/*450*/
     margin: 20px;/*20*/
-    top: 25px;
+    top: 10px;
     /* background-color:#758a99; */
     /*ćŠćŹč˘ąćśîçŤ´ç§ĺł°çéé˘ĺ¨ćĺ­ç´­éŚĺĺŻ˛é¨ĺŤĺ§éłďż1¤7*/
     border-radius: 20px;
@@ -787,7 +793,7 @@ input[type="radio"]
 .xingshia{
     /*100%çťćĽĺ˝ćĽć¨şĺŽł*/
    
-  height: 25%;
+  height: 46%;
   /*ĺŻŽč§âŹŃçŤˇçâ200Ź ĺ§ćé1¤7+é¨ĺć´żçĺŹč*/
   display:flex;
   justify-content: center;
